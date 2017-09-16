@@ -1,0 +1,46 @@
+.tagInput{
+  border: 1px solid #ccc;
+  padding: 2px 3px;
+  display: inline-block;
+  width: 500px;
+  border-radius: 5px;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.075);
+
+  input[type='text']{
+    border: none;
+    display: inline-block;
+    outline: none;
+    height: 18px;
+    padding: 0px;
+    font-size: 13px;
+    line-height: 18px;
+    color: #000;
+    margin: 2px;
+    max-width: 200px;
+    &:focus{
+      outline: none;
+      box-shadow: 0px;
+    }
+  }
+
+  .input-tag{
+    padding: 2px 4px;
+    line-height: 12px;
+    font-size: 11px;
+    background-color: #f2f2f2;
+    display: inline-block;
+    border-radius: 2px;
+    margin: 2px 5px 2px 0px;
+  }
+
+  .delete-tag{
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 0px 2px;
+    &:hover{
+      background: #96b4d2;
+    }
+  }
+
+}
